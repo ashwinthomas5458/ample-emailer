@@ -222,4 +222,7 @@ body{
     .bar{
         display: flex;
     }
+    .footer{
+        width: 100%;
+    }
 }
