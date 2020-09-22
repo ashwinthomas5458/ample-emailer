@@ -30,13 +30,17 @@ body{
     font-size: 2rem;
     font-weight: 1000;
     color: #231f20;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 30px;
+    text-align: center;
 }
 .content{
     font-size: 0.8rem;
     font-weight: 600;
     color: #231f20;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
     text-align: justify;
 }
 .section{
@@ -98,6 +102,9 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
+.row .title{
+    margin: 0;
+}
 .redirect{
     width: 100%;
     height: 300px;
@@ -105,12 +112,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #231f20;
+    background-color: #3f3d56;
     color: #eeeeee;
 }
 .redirect .content{
     color: #eeeeee;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 .reach{
     width: 110px;
@@ -126,6 +133,12 @@ body{
 }
 .redirect a{
     text-decoration: none;
+}
+.redirect .icon{
+    width: 35px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .bar{
     width: 90%;
@@ -149,7 +162,7 @@ body{
 .footer{
     width: 600px;
     height: auto;
-    background-color: #231f20;
+    background-color: #3f3d56;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,7 +170,7 @@ body{
 .footer .content{
     color: #808285;
     margin: 10px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 @media screen and (max-width:700px){
     .header{
@@ -199,6 +212,12 @@ body{
     .redirect{
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
+    }
+    .redirect .icon{
+        width: 30px;
+        margin-bottom: 40px;
+        margin-right: 8px;
+        margin-left: 8px;
     }
     .bar{
         display: flex;
